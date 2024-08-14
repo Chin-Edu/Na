@@ -1,0 +1,218 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Investment Platform</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<style> 
+
+/* Existing styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button, .register-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #6c63ff;
+    border-radius: 5px;
+}
+
+.register-button {
+    background-color: #4b3cf9;
+}
+
+.fast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.writting {
+    max-width: 50%;
+}
+
+.writting h3 {
+    font-size: 31px;
+    margin: 0;
+}
+
+.writting .purple {
+    color: #6c63ff;
+}
+
+.writting p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.register-now-button {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: #4b3cf9;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.hand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dct {
+    font-size: 24px;
+}
+
+.money {
+    justify-content: space-around;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        align-items: center
+        font-size:19px;
+}
+
+.money img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Media Query for devices with max-width of 750px */
+@media (max-width: 750px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .fast {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .writting {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .writting h3 {
+        font-size: 24px;
+    }
+
+    .register-now-button {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+
+    .hand img {
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .money {
+        justify-content: space-around;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .money img {
+        max-width: 1px;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="dct"><h2>DCT</h2></div>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Investment</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="login-button">Login</a>
+                <a href="#" class="register-button">Register</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="fast">
+            <div class="writting">
+                <h3>Fastest & Secure Platform to Invest in <span class="purple">Crypto</span></h3>
+              <br>
+              <br>
+              <br>
+              
+            <br>
+                <p>At Crest Holdings LTD, we believe in democratizing access to the world of Finance and Investment. Join us on our journey to reshape the future of finance.</p>
+                <a href="#" class="register-now-button">Register Now</a>
+            </div>
+            <div class="hand">
+                <img src="purpleHand.png"alt="Hand holding crypto coin">
+            </div>
+        </section>
+        <section class="money">
+            <a href=""><li>Binance</li></a>
+            <a href=""><li>Coinbase</li></a>
+            <a href=""><li>Crypto</li></a>
+            <a href=""><li>Metamask</li></a>
+            <a href=""><li>Bitcoin</li></a>
+        </section>
+    </main>
+</body>
+</html>
