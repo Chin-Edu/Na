@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investment Platform</title>
-   
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <style> 
@@ -45,7 +45,7 @@ nav ul li a {
     gap: 10px;
 }
 
-.login-button, .register-button {
+.register-button {
     text-decoration: none;
     padding: 10px 20px;
     color: #ffffff;
@@ -102,14 +102,14 @@ nav ul li a {
 
 .money {
     justify-content: space-around;
-        padding: 20px 0;
-        list-style: none;
-        display: flex;
-        gap: 10px;
-        align-items: center
-        font-size:19px;
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 19px;
+    text-decoration: none;
 }
-
 .money img {
     max-width: 150px;
     height: auto;
@@ -129,7 +129,7 @@ nav ul li a {
         font-size: 14px;
     }
 
-    .buttons {
+    .auth-buttons {
         flex-direction: column;
         align-items: center;
         gap: 5px;
@@ -161,14 +161,15 @@ nav ul li a {
     }
 
     .money {
-        justify-content: space-around;
-        padding: 20px 0;
-        list-style: none;
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
-
+    justify-content: space-around;
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 17px;
+    text-decoration: none;
+}
     .money img {
         max-width: 1px;
     }
@@ -183,9 +184,10 @@ nav ul li a {
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Investment</a></li>
                 <li><a href="#">Testimonials</a></li>
-            <li><a href="#">login</a></li>
+                <li><a href="#">Login</a></li>
             </ul>
-            <div class="auth-buttons"
+            <div class="auth-buttons">
+                
                 <a href="#" class="register-button">Register</a>
             </div>
         </nav>
@@ -207,11 +209,11 @@ nav ul li a {
             </div>
         </section>
         <section class="money">
-            <a href=""><li>Binance</li></a>
-            <a href=""><li>Coinbase</li></a>
-            <a href=""><li>Crypto</li></a>
-            <a href=""><li>Metamask</li></a>
-            <a href=""><li>Bitcoin</li></a>
+            <a href=""><h2><li style="color:yellow;">BINANCE</li></h2></a>
+            <a href=""><li style="color:dodgerblue;">Coinbase</li></a>
+            <a href=""><li style="color:;">Crypto</li></a>
+            <a href=""><li style="color:;">Metamask</li></a>
+            <a href=""><li style="color:;">Bitcoin</li></a>
         </section>
     </main>
 </body>
